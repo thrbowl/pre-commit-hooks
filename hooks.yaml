@@ -135,3 +135,9 @@
     entry: trailing-whitespace-fixer
     language: python
     files: \.(c|cpp|html|erb|slim|haml|ejs|jade|js|coffee|json|rb|md|py|css|scss|less|sh|tmpl|txt|yaml|yml|pp)$
+-   id: pylint
+    name: Pylint
+    description: This hook runs pylint.
+    entry: pylint
+    language: python
+    files: \.py$
